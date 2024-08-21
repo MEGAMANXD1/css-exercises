@@ -9,9 +9,21 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.notifications {
+  display: flex;
+  align-self: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
 }
 
 .profile-image {
@@ -23,6 +35,8 @@ body {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
